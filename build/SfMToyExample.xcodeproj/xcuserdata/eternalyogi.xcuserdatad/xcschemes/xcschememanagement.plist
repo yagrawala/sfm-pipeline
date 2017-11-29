@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ALL_BUILD.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SfMToyLibrary.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SfMToyUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SfMUnitTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>ZERO_CHECK.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>09224898E9894351AD2E132D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0FE3B1C082BF4E6DAE708D81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7272362D26AC4E649A7F3DE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C61978AC72A4A28AE416857</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4EADECC26E245248C4D497D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,5 @@
+/Users/eternalyogi/Documents/SfM-Toy-Library/build/CMakeFiles/SfMToyUI.dir
+/Users/eternalyogi/Documents/SfM-Toy-Library/build/CMakeFiles/ALL_BUILD.dir
+/Users/eternalyogi/Documents/SfM-Toy-Library/build/CMakeFiles/ZERO_CHECK.dir
+/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/CMakeFiles/SfMUnitTests.dir
+/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/CMakeFiles/SfMToyLibrary.dir

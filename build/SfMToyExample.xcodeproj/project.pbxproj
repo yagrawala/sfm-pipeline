@@ -1,0 +1,1557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7272362D26AC4E649A7F3DE7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A230D076FA86443D90FC52D4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F1AC030EDA5747298C2BA331 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		7C61978AC72A4A28AE416857 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 27A383157C0A4941A5141AEC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B1CB49C7A94D49C1894DB030 /* CMake Rules */,
+			);
+			dependencies = (
+				D06C903ADEE1445B99332BC7 /* PBXTargetDependency */,
+				DC323CAFF76244FEBB10B835 /* PBXTargetDependency */,
+				D01D23E4DA8744FD9C96A7C0 /* PBXTargetDependency */,
+				8552E3BCA6F74870ABC42E93 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2F18AD5E9E554104BFAF217D /* SfMUnitTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9314409C8BFB4B02B751467D /* SfMUnitTests.cpp */; };
+		459A0276133249E487F18FC4 /* SfM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 519BB304BA1D43D5981E1CAA /* SfM.cpp */; };
+		8906376D08B94E989BB0CB61 /* SfM2DFeatureUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA8E95754AC44CAC916E00EA /* SfM2DFeatureUtilities.cpp */; };
+		A292051171B84A5584FE1F51 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40BDDB34DB6C4D40B86D2D51 /* main.cpp */; };
+		B236F4D4DB244142AB3D8899 /* SfMBundleAdjustmentUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44466CD4E27B46D0AFF64958 /* SfMBundleAdjustmentUtils.cpp */; };
+		BA6D0D5DFF1647D69CEEA333 /* SfMCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71E04C1D051D492E9657F209 /* SfMCommon.cpp */; };
+		D1BE055D7B814DCBB4DBA285 /* SfMStereoUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C9AF1EDCE514104B58BCB8A /* SfMStereoUtilities.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009474766DD2474C87BBAD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8198CBFE55C4A48BB99253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09224898E9894351AD2E132D;
+			remoteInfo = SfMToyLibrary;
+		};
+		28C90EFAE6074378B8381E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8198CBFE55C4A48BB99253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09224898E9894351AD2E132D;
+			remoteInfo = SfMToyLibrary;
+		};
+		2D3D1AD0812C41C6AF5CE77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8198CBFE55C4A48BB99253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FE3B1C082BF4E6DAE708D81;
+			remoteInfo = SfMToyUI;
+		};
+		49D6F199F98C482EB0F0D529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8198CBFE55C4A48BB99253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EADECC26E245248C4D497D;
+			remoteInfo = SfMUnitTests;
+		};
+		775F2B0282CB45F19E78F9E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8198CBFE55C4A48BB99253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7272362D26AC4E649A7F3DE7;
+			remoteInfo = ZERO_CHECK;
+		};
+		C3018EA7631D4F9588AE3202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8198CBFE55C4A48BB99253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09224898E9894351AD2E132D;
+			remoteInfo = SfMToyLibrary;
+		};
+		F1D0F479DE704317BC8A4F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8198CBFE55C4A48BB99253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7272362D26AC4E649A7F3DE7;
+			remoteInfo = ZERO_CHECK;
+		};
+		F35D29B94D29489ABD82DD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8198CBFE55C4A48BB99253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7272362D26AC4E649A7F3DE7;
+			remoteInfo = ZERO_CHECK;
+		};
+		F97F9A385AEC4AD790A2AAA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8198CBFE55C4A48BB99253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7272362D26AC4E649A7F3DE7;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13FF6BE70E454487899D3BA4 /* SfMBundleAdjustmentUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SfMBundleAdjustmentUtils.h; path = SfMToyLib/SfMBundleAdjustmentUtils.h; sourceTree = SOURCE_ROOT; };
+		1C9AF1EDCE514104B58BCB8A /* SfMStereoUtilities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SfMStereoUtilities.cpp; path = SfMToyLib/SfMStereoUtilities.cpp; sourceTree = SOURCE_ROOT; };
+		2A616553E4D1477495D8F96F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2AF6DA1AD9B140D58E677E45 /* libSfMToyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSfMToyLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BDDB34DB6C4D40B86D2D51 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		44466CD4E27B46D0AFF64958 /* SfMBundleAdjustmentUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SfMBundleAdjustmentUtils.cpp; path = SfMToyLib/SfMBundleAdjustmentUtils.cpp; sourceTree = SOURCE_ROOT; };
+		519BB304BA1D43D5981E1CAA /* SfM.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SfM.cpp; path = SfMToyLib/SfM.cpp; sourceTree = SOURCE_ROOT; };
+		6891DBC07E8F4942B1C8041D /* SfM2DFeatureUtilities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SfM2DFeatureUtilities.h; path = SfMToyLib/SfM2DFeatureUtilities.h; sourceTree = SOURCE_ROOT; };
+		709D0EF27E164719B31AE52A /* SfM.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SfM.h; path = SfMToyLib/SfM.h; sourceTree = SOURCE_ROOT; };
+		71E04C1D051D492E9657F209 /* SfMCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SfMCommon.cpp; path = SfMToyLib/SfMCommon.cpp; sourceTree = SOURCE_ROOT; };
+		7216D8377CDB4C85BE055DA1 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = SfMToyLib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		79C8986F497D4ECD9FBA25B1 /* SfMStereoUtilities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SfMStereoUtilities.h; path = SfMToyLib/SfMStereoUtilities.h; sourceTree = SOURCE_ROOT; };
+		80B9E6B5E995422681535043 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8E7E510048AC48F1972C7173 /* SfMCommon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SfMCommon.h; path = SfMToyLib/SfMCommon.h; sourceTree = SOURCE_ROOT; };
+		9314409C8BFB4B02B751467D /* SfMUnitTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SfMUnitTests.cpp; path = SfMToyLib/SfMUnitTests.cpp; sourceTree = SOURCE_ROOT; };
+		9CDEBC187F274821A4C824FE /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = SfMToyLib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A155CD551E7A42279C3DA94A /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D796CAF3BAC74B29A1B44E5B /* SfMUnitTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SfMUnitTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		D826C1FE3FB44834980BB972 /* SfMToyUI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SfMToyUI; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8E95754AC44CAC916E00EA /* SfM2DFeatureUtilities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SfM2DFeatureUtilities.cpp; path = SfMToyLib/SfM2DFeatureUtilities.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		19268522C6824956BACEACBE = {
+			isa = PBXGroup;
+			children = (
+				FD3041D1A62844219B6E6393 /* SfMToyUI */,
+				7891AD897F60449BBF4EE67D /* ALL_BUILD */,
+				FC4069F898F34E279AD777BE /* ZERO_CHECK */,
+				48A7494F517F4E088C1750DD /* SfMUnitTests */,
+				DD2DE73EFF2E42A8B66D4418 /* SfMToyLibrary */,
+				387DC520360143E9AE806E60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		387DC520360143E9AE806E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D826C1FE3FB44834980BB972 /* SfMToyUI */,
+				2AF6DA1AD9B140D58E677E45 /* libSfMToyLibrary.a */,
+				D796CAF3BAC74B29A1B44E5B /* SfMUnitTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456ABFEDBD3147F088D60190 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		48A7494F517F4E088C1750DD /* SfMUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				946885EC83C9497EBFE5429C /* Source Files */,
+				9CDEBC187F274821A4C824FE /* CMakeLists.txt */,
+			);
+			name = SfMUnitTests;
+			sourceTree = "<group>";
+		};
+		4CD4348E98584304B7ADFBCA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				709D0EF27E164719B31AE52A /* SfM.h */,
+				6891DBC07E8F4942B1C8041D /* SfM2DFeatureUtilities.h */,
+				13FF6BE70E454487899D3BA4 /* SfMBundleAdjustmentUtils.h */,
+				8E7E510048AC48F1972C7173 /* SfMCommon.h */,
+				79C8986F497D4ECD9FBA25B1 /* SfMStereoUtilities.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6322B7224C3445B5A8863BE5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				519BB304BA1D43D5981E1CAA /* SfM.cpp */,
+				EA8E95754AC44CAC916E00EA /* SfM2DFeatureUtilities.cpp */,
+				44466CD4E27B46D0AFF64958 /* SfMBundleAdjustmentUtils.cpp */,
+				71E04C1D051D492E9657F209 /* SfMCommon.cpp */,
+				1C9AF1EDCE514104B58BCB8A /* SfMStereoUtilities.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7891AD897F60449BBF4EE67D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				456ABFEDBD3147F088D60190 /* CMake Rules */,
+				80B9E6B5E995422681535043 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		863D50CD32F9457D9548DFFD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		946885EC83C9497EBFE5429C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9314409C8BFB4B02B751467D /* SfMUnitTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		977132F4955F473EBE9AB8AD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BDDB34DB6C4D40B86D2D51 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DD2DE73EFF2E42A8B66D4418 /* SfMToyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4348E98584304B7ADFBCA /* Header Files */,
+				6322B7224C3445B5A8863BE5 /* Source Files */,
+				7216D8377CDB4C85BE055DA1 /* CMakeLists.txt */,
+			);
+			name = SfMToyLibrary;
+			sourceTree = "<group>";
+		};
+		FC4069F898F34E279AD777BE /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				863D50CD32F9457D9548DFFD /* CMake Rules */,
+				2A616553E4D1477495D8F96F /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		FD3041D1A62844219B6E6393 /* SfMToyUI */ = {
+			isa = PBXGroup;
+			children = (
+				977132F4955F473EBE9AB8AD /* Source Files */,
+				A155CD551E7A42279C3DA94A /* CMakeLists.txt */,
+			);
+			name = SfMToyUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09224898E9894351AD2E132D /* SfMToyLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6152B1E3CC314EBCABBE4064 /* Build configuration list for PBXNativeTarget "SfMToyLibrary" */;
+			buildPhases = (
+				0FA2DDC3AA7A44C0A88649CC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806553FB910142E1BFB9E07A /* PBXTargetDependency */,
+			);
+			name = SfMToyLibrary;
+			productName = SfMToyLibrary;
+			productReference = 2AF6DA1AD9B140D58E677E45 /* libSfMToyLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0FE3B1C082BF4E6DAE708D81 /* SfMToyUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CABF0A7B864068AC7375E8 /* Build configuration list for PBXNativeTarget "SfMToyUI" */;
+			buildPhases = (
+				EB94503383A54402A1D2B0CB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2187B2BD3E834A748ACFE9C9 /* PBXTargetDependency */,
+				F3E6FB074B634095AA8E86D7 /* PBXTargetDependency */,
+			);
+			name = SfMToyUI;
+			productName = SfMToyUI;
+			productReference = D826C1FE3FB44834980BB972 /* SfMToyUI */;
+			productType = "com.apple.product-type.tool";
+		};
+		A4EADECC26E245248C4D497D /* SfMUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A42F273940D459C9BFBA6A9 /* Build configuration list for PBXNativeTarget "SfMUnitTests" */;
+			buildPhases = (
+				4B2A334F6666427E99DDF0AC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E3331E263D2482CA7ED2B2F /* PBXTargetDependency */,
+				4D5DF5B958B640ECA9ACAC75 /* PBXTargetDependency */,
+			);
+			name = SfMUnitTests;
+			productName = SfMUnitTests;
+			productReference = D796CAF3BAC74B29A1B44E5B /* SfMUnitTests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8198CBFE55C4A48BB99253B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = 07C0E2D081074977803FA346 /* Build configuration list for PBXProject "SfMToyExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19268522C6824956BACEACBE;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				7C61978AC72A4A28AE416857 /* ALL_BUILD */,
+				0FE3B1C082BF4E6DAE708D81 /* SfMToyUI */,
+				7272362D26AC4E649A7F3DE7 /* ZERO_CHECK */,
+				09224898E9894351AD2E132D /* SfMToyLibrary */,
+				A4EADECC26E245248C4D497D /* SfMUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1CB49C7A94D49C1894DB030 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/eternalyogi/Documents/SfM-Toy-Library/build -f /Users/eternalyogi/Documents/SfM-Toy-Library/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F1AC030EDA5747298C2BA331 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/eternalyogi/Documents/SfM-Toy-Library/build -f /Users/eternalyogi/Documents/SfM-Toy-Library/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA2DDC3AA7A44C0A88649CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459A0276133249E487F18FC4 /* SfM.cpp in Sources */,
+				8906376D08B94E989BB0CB61 /* SfM2DFeatureUtilities.cpp in Sources */,
+				B236F4D4DB244142AB3D8899 /* SfMBundleAdjustmentUtils.cpp in Sources */,
+				BA6D0D5DFF1647D69CEEA333 /* SfMCommon.cpp in Sources */,
+				D1BE055D7B814DCBB4DBA285 /* SfMStereoUtilities.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2A334F6666427E99DDF0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F18AD5E9E554104BFAF217D /* SfMUnitTests.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB94503383A54402A1D2B0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A292051171B84A5584FE1F51 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2187B2BD3E834A748ACFE9C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09224898E9894351AD2E132D /* SfMToyLibrary */;
+			targetProxy = 28C90EFAE6074378B8381E55 /* PBXContainerItemProxy */;
+		};
+		3E3331E263D2482CA7ED2B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09224898E9894351AD2E132D /* SfMToyLibrary */;
+			targetProxy = 009474766DD2474C87BBAD95 /* PBXContainerItemProxy */;
+		};
+		4D5DF5B958B640ECA9ACAC75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7272362D26AC4E649A7F3DE7 /* ZERO_CHECK */;
+			targetProxy = 775F2B0282CB45F19E78F9E4 /* PBXContainerItemProxy */;
+		};
+		806553FB910142E1BFB9E07A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7272362D26AC4E649A7F3DE7 /* ZERO_CHECK */;
+			targetProxy = F1D0F479DE704317BC8A4F20 /* PBXContainerItemProxy */;
+		};
+		8552E3BCA6F74870ABC42E93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7272362D26AC4E649A7F3DE7 /* ZERO_CHECK */;
+			targetProxy = F97F9A385AEC4AD790A2AAA5 /* PBXContainerItemProxy */;
+		};
+		D01D23E4DA8744FD9C96A7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09224898E9894351AD2E132D /* SfMToyLibrary */;
+			targetProxy = C3018EA7631D4F9588AE3202 /* PBXContainerItemProxy */;
+		};
+		D06C903ADEE1445B99332BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FE3B1C082BF4E6DAE708D81 /* SfMToyUI */;
+			targetProxy = 2D3D1AD0812C41C6AF5CE77F /* PBXContainerItemProxy */;
+		};
+		DC323CAFF76244FEBB10B835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4EADECC26E245248C4D497D /* SfMUnitTests */;
+			targetProxy = 49D6F199F98C482EB0F0D529 /* PBXContainerItemProxy */;
+		};
+		F3E6FB074B634095AA8E86D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7272362D26AC4E649A7F3DE7 /* ZERO_CHECK */;
+			targetProxy = F35D29B94D29489ABD82DD4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		005C99AAACE4439CAB8751E7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'GFLAGS_IS_A_DLL=0'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include/eigen3;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/MinSizeRel/libSfMToyLibrary.a",
+					"/usr/local/lib/libboost_unit_test_framework-mt.dylib",
+					/usr/local/lib/libceres.a,
+					/usr/local/lib/libopencv_calib3d.3.3.0.dylib,
+					/usr/local/lib/libopencv_features2d.3.3.0.dylib,
+					/usr/local/lib/libopencv_highgui.3.3.0.dylib,
+					/usr/local/lib/libglog.dylib,
+					/usr/local/lib/libgflags.2.2.1.dylib,
+					/usr/local/lib/libspqr.dylib,
+					/usr/local/lib/libcholmod.dylib,
+					/usr/local/lib/libccolamd.dylib,
+					/usr/local/lib/libcamd.dylib,
+					/usr/local/lib/libcolamd.dylib,
+					/usr/local/lib/libamd.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					/usr/local/lib/libopencv_flann.3.3.0.dylib,
+					/usr/local/lib/libopencv_videoio.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgproc.3.3.0.dylib,
+					/usr/local/lib/libopencv_core.3.3.0.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMUnitTests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/include/opencv";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		0DD04969FA4046E5A3F8AF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'GFLAGS_IS_A_DLL=0'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include/eigen3;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/Release/libSfMToyLibrary.a",
+					"/usr/local/lib/libboost_unit_test_framework-mt.dylib",
+					/usr/local/lib/libceres.a,
+					/usr/local/lib/libopencv_calib3d.3.3.0.dylib,
+					/usr/local/lib/libopencv_features2d.3.3.0.dylib,
+					/usr/local/lib/libopencv_highgui.3.3.0.dylib,
+					/usr/local/lib/libglog.dylib,
+					/usr/local/lib/libgflags.2.2.1.dylib,
+					/usr/local/lib/libspqr.dylib,
+					/usr/local/lib/libcholmod.dylib,
+					/usr/local/lib/libccolamd.dylib,
+					/usr/local/lib/libcamd.dylib,
+					/usr/local/lib/libcolamd.dylib,
+					/usr/local/lib/libamd.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					/usr/local/lib/libopencv_flann.3.3.0.dylib,
+					/usr/local/lib/libopencv_videoio.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgproc.3.3.0.dylib,
+					/usr/local/lib/libopencv_core.3.3.0.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMUnitTests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/include/opencv";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		0E02043089514D8FBADCB727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'GFLAGS_IS_A_DLL=0'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__SFM__DEBUG__",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-F/usr/local/lib",
+					"-L/opt/local/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/Debug/libSfMToyLibrary.a",
+					/usr/local/lib/libopencv_calib3d.3.3.0.dylib,
+					/usr/local/lib/libopencv_features2d.3.3.0.dylib,
+					/usr/local/lib/libopencv_highgui.3.3.0.dylib,
+					"/usr/local/lib/libboost_system-mt.dylib",
+					"/usr/local/lib/libboost_chrono-mt.dylib",
+					"/usr/local/lib/libboost_filesystem-mt.dylib",
+					"/usr/local/lib/libboost_unit_test_framework-mt.dylib",
+					"/usr/local/lib/libboost_program_options-mt.dylib",
+					/usr/local/lib/libceres.a,
+					/usr/local/lib/libopencv_flann.3.3.0.dylib,
+					/usr/local/lib/libopencv_videoio.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgproc.3.3.0.dylib,
+					/usr/local/lib/libopencv_core.3.3.0.dylib,
+					/usr/local/lib/libglog.dylib,
+					/usr/local/lib/libgflags.2.2.1.dylib,
+					/usr/local/lib/libspqr.dylib,
+					/usr/local/lib/libcholmod.dylib,
+					/usr/local/lib/libccolamd.dylib,
+					/usr/local/lib/libcamd.dylib,
+					/usr/local/lib/libcolamd.dylib,
+					/usr/local/lib/libamd.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMToyUI;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/include/opencv";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		11E046CD31B340959FC16C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		15D16AF2D772455998865FF3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		3EFA66841A524AEA9763DEBF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'GFLAGS_IS_A_DLL=0'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-F/usr/local/lib",
+					"-L/opt/local/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/MinSizeRel/libSfMToyLibrary.a",
+					/usr/local/lib/libopencv_calib3d.3.3.0.dylib,
+					/usr/local/lib/libopencv_features2d.3.3.0.dylib,
+					/usr/local/lib/libopencv_highgui.3.3.0.dylib,
+					"/usr/local/lib/libboost_system-mt.dylib",
+					"/usr/local/lib/libboost_chrono-mt.dylib",
+					"/usr/local/lib/libboost_filesystem-mt.dylib",
+					"/usr/local/lib/libboost_unit_test_framework-mt.dylib",
+					"/usr/local/lib/libboost_program_options-mt.dylib",
+					/usr/local/lib/libceres.a,
+					/usr/local/lib/libopencv_flann.3.3.0.dylib,
+					/usr/local/lib/libopencv_videoio.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgproc.3.3.0.dylib,
+					/usr/local/lib/libopencv_core.3.3.0.dylib,
+					/usr/local/lib/libglog.dylib,
+					/usr/local/lib/libgflags.2.2.1.dylib,
+					/usr/local/lib/libspqr.dylib,
+					/usr/local/lib/libcholmod.dylib,
+					/usr/local/lib/libccolamd.dylib,
+					/usr/local/lib/libcamd.dylib,
+					/usr/local/lib/libcolamd.dylib,
+					/usr/local/lib/libamd.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMToyUI;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/include/opencv";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		47AA6A1260E741928936EBF6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'GFLAGS_IS_A_DLL=0'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-F/usr/local/lib",
+					"-L/opt/local/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/RelWithDebInfo/libSfMToyLibrary.a",
+					/usr/local/lib/libopencv_calib3d.3.3.0.dylib,
+					/usr/local/lib/libopencv_features2d.3.3.0.dylib,
+					/usr/local/lib/libopencv_highgui.3.3.0.dylib,
+					"/usr/local/lib/libboost_system-mt.dylib",
+					"/usr/local/lib/libboost_chrono-mt.dylib",
+					"/usr/local/lib/libboost_filesystem-mt.dylib",
+					"/usr/local/lib/libboost_unit_test_framework-mt.dylib",
+					"/usr/local/lib/libboost_program_options-mt.dylib",
+					/usr/local/lib/libceres.a,
+					/usr/local/lib/libopencv_flann.3.3.0.dylib,
+					/usr/local/lib/libopencv_videoio.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgproc.3.3.0.dylib,
+					/usr/local/lib/libopencv_core.3.3.0.dylib,
+					/usr/local/lib/libglog.dylib,
+					/usr/local/lib/libgflags.2.2.1.dylib,
+					/usr/local/lib/libspqr.dylib,
+					/usr/local/lib/libcholmod.dylib,
+					/usr/local/lib/libccolamd.dylib,
+					/usr/local/lib/libcamd.dylib,
+					/usr/local/lib/libcolamd.dylib,
+					/usr/local/lib/libamd.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMToyUI;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/include/opencv";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		56DE46999478463AA528B0CE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		58997A4EC0144CB09D772E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'GFLAGS_IS_A_DLL=0'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-F/usr/local/lib",
+					"-L/opt/local/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/Release/libSfMToyLibrary.a",
+					/usr/local/lib/libopencv_calib3d.3.3.0.dylib,
+					/usr/local/lib/libopencv_features2d.3.3.0.dylib,
+					/usr/local/lib/libopencv_highgui.3.3.0.dylib,
+					"/usr/local/lib/libboost_system-mt.dylib",
+					"/usr/local/lib/libboost_chrono-mt.dylib",
+					"/usr/local/lib/libboost_filesystem-mt.dylib",
+					"/usr/local/lib/libboost_unit_test_framework-mt.dylib",
+					"/usr/local/lib/libboost_program_options-mt.dylib",
+					/usr/local/lib/libceres.a,
+					/usr/local/lib/libopencv_flann.3.3.0.dylib,
+					/usr/local/lib/libopencv_videoio.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgproc.3.3.0.dylib,
+					/usr/local/lib/libopencv_core.3.3.0.dylib,
+					/usr/local/lib/libglog.dylib,
+					/usr/local/lib/libgflags.2.2.1.dylib,
+					/usr/local/lib/libspqr.dylib,
+					/usr/local/lib/libcholmod.dylib,
+					/usr/local/lib/libccolamd.dylib,
+					/usr/local/lib/libcamd.dylib,
+					/usr/local/lib/libcolamd.dylib,
+					/usr/local/lib/libamd.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMToyUI;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/include/opencv";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		5FC4A9A71500416EA9F6178F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMToyLibrary;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		5FE0917790074706B7AB650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		616357CDA3DE44B7AF036BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMToyLibrary;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		7117CCDD857042E8A1763456 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		790486BFCC3B455BB5BAAA98 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		80F8D4D3E52A452781D3F59C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMToyLibrary;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		A2C2D09387C74D1E81543003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'GFLAGS_IS_A_DLL=0'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include/eigen3;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/Debug/libSfMToyLibrary.a",
+					"/usr/local/lib/libboost_unit_test_framework-mt.dylib",
+					/usr/local/lib/libceres.a,
+					/usr/local/lib/libopencv_calib3d.3.3.0.dylib,
+					/usr/local/lib/libopencv_features2d.3.3.0.dylib,
+					/usr/local/lib/libopencv_highgui.3.3.0.dylib,
+					/usr/local/lib/libglog.dylib,
+					/usr/local/lib/libgflags.2.2.1.dylib,
+					/usr/local/lib/libspqr.dylib,
+					/usr/local/lib/libcholmod.dylib,
+					/usr/local/lib/libccolamd.dylib,
+					/usr/local/lib/libcamd.dylib,
+					/usr/local/lib/libcolamd.dylib,
+					/usr/local/lib/libamd.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					/usr/local/lib/libopencv_flann.3.3.0.dylib,
+					/usr/local/lib/libopencv_videoio.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgproc.3.3.0.dylib,
+					/usr/local/lib/libopencv_core.3.3.0.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMUnitTests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/include/opencv";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		B1AC72E35E3A4463B1FE1880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		C031624814A449AFA4825776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/build";
+			};
+			name = Debug;
+		};
+		C9BE0703B1CF48A9BF06D0DD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'GFLAGS_IS_A_DLL=0'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include/eigen3;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib/RelWithDebInfo/libSfMToyLibrary.a",
+					"/usr/local/lib/libboost_unit_test_framework-mt.dylib",
+					/usr/local/lib/libceres.a,
+					/usr/local/lib/libopencv_calib3d.3.3.0.dylib,
+					/usr/local/lib/libopencv_features2d.3.3.0.dylib,
+					/usr/local/lib/libopencv_highgui.3.3.0.dylib,
+					/usr/local/lib/libglog.dylib,
+					/usr/local/lib/libgflags.2.2.1.dylib,
+					/usr/local/lib/libspqr.dylib,
+					/usr/local/lib/libcholmod.dylib,
+					/usr/local/lib/libccolamd.dylib,
+					/usr/local/lib/libcamd.dylib,
+					/usr/local/lib/libcolamd.dylib,
+					/usr/local/lib/libamd.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					"-framework",
+					Accelerate,
+					/usr/local/lib/libsuitesparseconfig.dylib,
+					/usr/local/lib/libmetis.dylib,
+					/usr/local/lib/libcxsparse.dylib,
+					/usr/local/lib/libopencv_flann.3.3.0.dylib,
+					/usr/local/lib/libopencv_videoio.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.3.3.0.dylib,
+					/usr/local/lib/libopencv_imgproc.3.3.0.dylib,
+					/usr/local/lib/libopencv_core.3.3.0.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMUnitTests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/include/opencv";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		D0A6ADBDAB144CE586F3142C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		D29B466F237949D5A00AD117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/build";
+			};
+			name = Release;
+		};
+		D54F5540A5694B32BF1FFF56 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SfMToyLibrary;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/SfMToyLib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		DAA6B60ED1B549E8BB4CD397 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build/build";
+			};
+			name = MinSizeRel;
+		};
+		E0961B8721374C228E294559 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+					/usr/local/include/eigen3,
+					/System/Library/Frameworks,
+					"/Users/eternalyogi/Documents/SfM-Toy-Library/SfMToyLib",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eternalyogi/Documents/SfM-Toy-Library/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C0E2D081074977803FA346 /* Build configuration list for PBXProject "SfMToyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C031624814A449AFA4825776 /* Debug */,
+				D29B466F237949D5A00AD117 /* Release */,
+				DAA6B60ED1B549E8BB4CD397 /* MinSizeRel */,
+				56DE46999478463AA528B0CE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		27A383157C0A4941A5141AEC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E046CD31B340959FC16C36 /* Debug */,
+				B1AC72E35E3A4463B1FE1880 /* Release */,
+				15D16AF2D772455998865FF3 /* MinSizeRel */,
+				790486BFCC3B455BB5BAAA98 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		44CABF0A7B864068AC7375E8 /* Build configuration list for PBXNativeTarget "SfMToyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E02043089514D8FBADCB727 /* Debug */,
+				58997A4EC0144CB09D772E74 /* Release */,
+				3EFA66841A524AEA9763DEBF /* MinSizeRel */,
+				47AA6A1260E741928936EBF6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6152B1E3CC314EBCABBE4064 /* Build configuration list for PBXNativeTarget "SfMToyLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616357CDA3DE44B7AF036BFB /* Debug */,
+				5FC4A9A71500416EA9F6178F /* Release */,
+				80F8D4D3E52A452781D3F59C /* MinSizeRel */,
+				D54F5540A5694B32BF1FFF56 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A42F273940D459C9BFBA6A9 /* Build configuration list for PBXNativeTarget "SfMUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C2D09387C74D1E81543003 /* Debug */,
+				0DD04969FA4046E5A3F8AF05 /* Release */,
+				005C99AAACE4439CAB8751E7 /* MinSizeRel */,
+				C9BE0703B1CF48A9BF06D0DD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A230D076FA86443D90FC52D4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A6ADBDAB144CE586F3142C /* Debug */,
+				5FE0917790074706B7AB650D /* Release */,
+				E0961B8721374C228E294559 /* MinSizeRel */,
+				7117CCDD857042E8A1763456 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8198CBFE55C4A48BB99253B /* Project object */;
+}
